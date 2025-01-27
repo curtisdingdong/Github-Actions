@@ -1,6 +1,5 @@
 # Github-Actions
 
-testing creds removing 1234
 
 [![GitHub Last Commit](https://img.shields.io/github/last-commit/curtisdingdong/Github-Actions?logo=github)](https://github.com/curtisdingdong/Github-Actions/commits/master)
 

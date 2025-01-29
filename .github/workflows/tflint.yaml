@@ -1,6 +1,5 @@
 ---
 name: tfsec
-
 on:
   workflow_call:
     inputs:
@@ -14,7 +13,9 @@ defaults:
     shell: bash -euxo pipefail {0}
 
 env:
-  DEBUG: ${{ inputs.debug == true || github.event.inputs.debug == 'true' || '' }}
+  DEBUG: | 
+    ${{ inputs.debug == true \
+    || github.event.inputs.debug == 'true' || '' }} \
 
 jobs:
   tflint:

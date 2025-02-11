@@ -3,7 +3,7 @@ name: Workflow Sync
 on:
   push:
     branches:
-      - master
+      - main
 env:
   DRY_RUN: false
   REPOSITORIES: |

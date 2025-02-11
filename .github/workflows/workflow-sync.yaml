@@ -11,6 +11,7 @@ env:
 
   WORKFLOW_FILES: |
     files/test.txt
+    markdown.yaml
 
 jobs:
   Github_Workflow_Sync:

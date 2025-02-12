@@ -8,10 +8,10 @@ env:
   DRY_RUN: false
   REPOSITORIES: |
     curtisdingdong/bash
-
+    curtisdingdont/kubernetes
   WORKFLOW_FILES: |
-    files/test.txt
     markdown.yaml
+    yamllint.yaml
   PULL_REQUEST: true
   AUTO_CREATE_NEW_BRANCH: true
 
